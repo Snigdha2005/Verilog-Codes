@@ -1,0 +1,55 @@
+$date
+	Fri Mar 15 19:52:46 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var reg 8 ! A [7:0] $end
+$upscope $end
+$scope module tb $end
+$var reg 8 " B [7:0] $end
+$upscope $end
+$scope module tb $end
+$var wire 8 # Y [7:0] $end
+$upscope $end
+$scope module tb $end
+$var reg 4 $ opt [3:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+b0 #
+b1 "
+b10100001 !
+$end
+#20000
+b1 #
+b1 $
+#40000
+b10 $
+#60000
+b0 #
+b11 $
+#80000
+b10100001 #
+b100 $
+#100000
+b0 #
+b101 $
+#120000
+b10100000 #
+b110 $
+#140000
+b10100010 #
+b111 $
+#160000
+b10100001 #
+b1000 $
+#180000
+b1001 $
+#200000

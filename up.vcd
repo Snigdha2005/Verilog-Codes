@@ -1,0 +1,85 @@
+$date
+	Fri Mar 15 18:29:06 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var reg 1 ! clk $end
+$upscope $end
+$scope module tb $end
+$var reg 3 " I [2:0] $end
+$upscope $end
+$scope module tb $end
+$var reg 1 # R $end
+$upscope $end
+$scope module tb $end
+$var reg 1 $ L $end
+$upscope $end
+$scope module tb $end
+$var wire 3 % Q [2:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 %
+1$
+1#
+b1 "
+0!
+$end
+#10000
+0$
+#30000
+b10 %
+1!
+#50000
+0!
+#70000
+b11 %
+1!
+#90000
+0!
+#110000
+b100 %
+1!
+#130000
+0!
+#150000
+b101 %
+1!
+#170000
+0!
+#190000
+b110 %
+1!
+#210000
+0!
+#230000
+b111 %
+1!
+#250000
+0!
+#270000
+b0 %
+1!
+#290000
+0!
+#310000
+b1 %
+1!
+#330000
+0!
+#350000
+b10 %
+1!
+#370000
+0!
+#390000
+b11 %
+1!
+#410000
+0!
